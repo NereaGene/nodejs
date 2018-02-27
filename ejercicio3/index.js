@@ -46,7 +46,7 @@ app.post('/provincias/:id', function(req, res){
 }); 
 app.post('/edit/:miidentificativo/:id', function(req, res){
     res.send('Identificativo editado  ' + req.params.id);
-}); 
+}); /*Para saber cuál es el valor res.send(req.params.id); */
 app.get('/delete/:miidentificativo/:id', function(req, res){
     res.send('identificativo borrado ' + req.params.id);
 }); 
