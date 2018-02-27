@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-
+#!/usr/bin/env node 
+//esto se pone siempre para otros navegadores//
 var express=require("express");
 var app=express();
 console.log("App.js arrancado!")
