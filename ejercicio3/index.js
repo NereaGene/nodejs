@@ -66,3 +66,4 @@ app.post('/login/username/:username/password/:password', function(req, res){
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
+/*var user=req.query.username; var pass=req.query.password; lo ideal sería  url a generarlogin?username=admin&password=admin y parecida sería login/:username/:password/*
