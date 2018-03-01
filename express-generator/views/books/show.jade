@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+    a(href="/books/") Volver al Listado
+    .mostrar
+        label="ID: "+objeto._id
+        br
+        label="ISBN: " + objeto.isbn
+        br
+        label="Título: " + objeto.title
+        br
+        label="Autores: " + objeto.author
+        br
+        label="Sinopsis: " + objeto.summary
